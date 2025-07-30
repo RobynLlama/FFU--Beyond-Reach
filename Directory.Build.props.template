@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>_obj\</BaseIntermediateOutputPath>
+    <OutputPath>_bin\</OutputPath>
+
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>embedded</DebugType>
+    <DependsDir>full/path/to/managed/dir</DependsDir>
+    <!-- For example C:/users/me/steam/steamapps/common/Ostranauts/Ostranauts_data/managed -->
+  </PropertyGroup>
+</Project>

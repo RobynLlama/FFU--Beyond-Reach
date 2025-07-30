@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 **/_obj
 **/_bin
+
+Directory.Build.props
