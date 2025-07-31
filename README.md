@@ -1,4 +1,9 @@
 ﻿# Description
+
+> [!IMPORTANT]
+> This is a fork of Warstalker's FFU Beyond Reach. The original can be found [HERE](https://git.soon-tm.info/warstalker/FFU-BR/)
+> This fork aims to remove a few non-vanilla friendly assumptions that were made about the mod loading process to ensure compatibility with [Ostra.Autoloader](https://github.com/RobynLlama/Ostranauts.Autoloader) for delivery via the Thunderstore. If you are manually installing all your mods, feel free to use the original instead!
+ 
 **Fight for Universe: Beyond Reach** is modification for Ostranauts, which
 expands modding capabilities of the original game, makes modding API more 
 flexible and resolves some issues related to having multiple mods. It relies 
