@@ -1,11 +1,16 @@
 <Project>
   <PropertyGroup>
+    <!-- Uncomment this to use the bin/obj layout instead -->
+    <!-- 
     <BaseIntermediateOutputPath>_obj\</BaseIntermediateOutputPath>
     <OutputPath>_bin\</OutputPath>
+    -->
+
+    <ArtifactsPath>$(MSBuildThisFileDirectory)artifacts</ArtifactsPath>
 
     <DebugSymbols>true</DebugSymbols>
     <DebugType>embedded</DebugType>
     <DependsDir>full/path/to/managed/dir</DependsDir>
-    <!-- For example C:/users/me/steam/steamapps/common/Ostranauts/Ostranauts_data/managed -->
+    <!-- For example C:/programfiles/steam/steamapps/common/Ostranauts/Ostranauts_data/managed -->
   </PropertyGroup>
 </Project>
